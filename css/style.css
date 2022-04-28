@@ -4,3 +4,66 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+
+/* HEADER */
+/* Header Top */
+.header-top {
+    background-color: lightblue;
+    padding: 20px 0;
+}
+.header-menu {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: goldenrod;
+}
+.logo, nav, .login {
+    padding: 5px;
+    /* TEST */
+    border: 1px dotted black;
+}
+/* Logo */
+.logo {
+    width: 20%;
+}
+/* Nav */
+nav {
+    width: 60%;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.menu li {
+    padding: 0 10px;
+}
+.menu li a, a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Login */
+.login {
+    width: 20%;
+    text-align: right;
+}
+/* END Header Top*/
+
+/* Header Bottom*/
+.header-bottom {
+    background-color: blue;
+    padding: 40px 0;
+}
+.jumbotron-text {
+    background-color: palevioletred;
+    width: 70%;
+    margin: auto;
+    
+    /*TEST*/
+    height: 400px;
+}
