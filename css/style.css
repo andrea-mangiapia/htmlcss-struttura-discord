@@ -9,18 +9,29 @@
 .content-two-column {
     width: 70%;
     margin: auto;
-    padding: 40px;
+    padding: 40px 0;
     display: flex;
 }
 
 .content-box {
     width: 70%;
     margin: auto;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .lightgray {
     background-color: lightgray;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+.menu li {
+    padding: 0 10px;
+}
+.menu li a, a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* HEADER */
@@ -40,7 +51,7 @@
     padding: 5px;
 
     /* TEST */
-    border: 1px dotted black;
+    border: 2px dashed black;
 }
 /* Logo */
 .logo {
@@ -50,18 +61,8 @@
 nav {
     width: 60%;
 }
-.menu {
-    list-style-type: none;
-    display: flex;
+.header-nav {
     justify-content: center;
-
-}
-.menu li {
-    padding: 0 10px;
-}
-.menu li a, a {
-    text-decoration: none;
-    color: inherit;
 }
 /* Login */
 .login {
@@ -82,6 +83,7 @@ nav {
     
     /*TEST*/
     height: 400px;
+    border: 2px dashed black;
 }
 /* END Header Bottom*/
 
@@ -92,6 +94,7 @@ nav {
     
     /*TEST*/
     height: 500px;
+    border: 2px dashed black;
 }
 .col-text {
     background-color: pink ;
@@ -99,11 +102,82 @@ nav {
     
     /*TEST*/
     height: 500px;
+    border: 2px dashed black;
 }
 .col-box {
     background-color: green;
 
     /*TEST*/
     height: 700px;
+    border: 2px dashed black;
 }
 /* END MAIN*/
+
+/*FOOTER*/
+/*Footer Top*/
+.footer-top {
+    background-color: #23272a;
+    padding: 20px 0 40px 0;
+    border-bottom: 2px solid white;
+}
+.content-footer-top {
+    background-color: aquamarine;
+    width: 70%;
+    margin: auto;
+    display: flex;
+
+    /*TEST*/
+    border: 2px dashed black;
+
+}
+.footer-contact {
+    background-color: lightcoral;
+    width: 30%;
+
+    /*TEST*/
+    height: 550px;
+    border: 2px dashed black;
+}
+.footer-menu {
+    background-color: green;
+    width: 70%;
+    display: flex;
+
+    /*TEST*/
+    height: 550px;
+    border: 2px dashed black;
+}
+.col-footer {
+    background-color: cadetblue;
+    width: 25%;
+
+    /*TEST*/
+    height: 550px;
+    border: 2px dashed white;
+}
+/*END Footer Top*/
+
+/*Footer Bottom*/
+.footer-bottom {
+    background-color: #23272a;
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+}
+.content-footer-bottom {
+    background-color: aquamarine;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*TEST*/
+    height: 70px;
+}
+.col-footer-bottom {
+    background-color: pink;
+    padding: 5px 7px;
+
+    /*TEST*/
+    border: 2px dashed black;
+}
