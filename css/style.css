@@ -6,7 +6,22 @@
 }
 
 /* COMMON */
+.content-two-column {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+}
 
+.content-box {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+.lightgray {
+    background-color: lightgray;
+}
 
 /* HEADER */
 /* Header Top */
@@ -23,6 +38,7 @@
 }
 .logo, nav, .login {
     padding: 5px;
+
     /* TEST */
     border: 1px dotted black;
 }
@@ -61,9 +77,33 @@ nav {
 }
 .jumbotron-text {
     background-color: palevioletred;
-    width: 70%;
+    width: 55%;
     margin: auto;
     
     /*TEST*/
     height: 400px;
 }
+/* END Header Bottom*/
+
+/*MAIN*/
+.col-img {
+    background-color: dodgerblue ;
+    width: 60%;
+    
+    /*TEST*/
+    height: 500px;
+}
+.col-text {
+    background-color: pink ;
+    width: 40%;
+    
+    /*TEST*/
+    height: 500px;
+}
+.col-box {
+    background-color: green;
+
+    /*TEST*/
+    height: 700px;
+}
+/* END MAIN*/
